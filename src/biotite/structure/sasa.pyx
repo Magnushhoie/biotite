@@ -56,7 +56,7 @@ def sasa(array, float probe_radius=1.4, np.ndarray atom_filter=None,
         (default: True).
     point_number : int, optional
         The number of points in the mesh occupying each atom for SASA
-        calculation (default: 100). The SASA calculation time is
+        calculation (default: 1000). The SASA calculation time is
         proportional to the amount of sphere points.
     point_distr : str or function, optional
         If a function is given, the function is used to calculate the
